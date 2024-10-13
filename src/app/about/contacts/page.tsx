@@ -47,7 +47,7 @@ export default function Contacts() {
             </div>
             <div className='contacts-social-links'>
                 <div className='footer-social-links-block'>
-                    <a href="https://t.me/marideniz_brand28" target="_blank" rel="noopener noreferrer">
+                    <a href="https://t.me/marideniz_brand" target="_blank" rel="noopener noreferrer">
                         <Image src={tglogo} alt="Telegram"/>
                     </a>
                 </div>
