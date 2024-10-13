@@ -129,14 +129,14 @@ export default function PlacingOrder({params: {id}}: Props): JSX.Element {
                         onClick={() => setDeliveryMethod('Самовывоз')}
                     >
                         <p className={'deliveryMethodInputTitle'}>Самовывоз</p>
-                        <p className={'deliveryMethodInputText'}>Херсонская ул., 20, Санкт-Петербург</p>
+                        <p className={'deliveryMethodInputText'}>Москва ул.Коминтерна 15</p>
                     </div>
                     <div
                         className={deliveryMethod === 'Доставка' ? 'selectedDeliveryMethodInput' : 'deliveryMethodInputFirst'}
                         onClick={() => setDeliveryMethod('Доставка')}
                     >
                         <p className={'deliveryMethodInputTitle'}>Доставка</p>
-                        <p className={'deliveryMethodInputText'}>Почта России</p>
+                        <p className={'deliveryMethodInputText'}>СДЭК</p>
                     </div>
                 </div>
                 {deliveryMethod === 'Доставка' && (
