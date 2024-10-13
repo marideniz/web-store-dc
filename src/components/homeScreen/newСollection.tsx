@@ -36,6 +36,7 @@ const NewCollection = async () => {
                     autoPlay
                     muted
                     loop
+                    playsInline
                 >
                     <source src={collection.videoUrl} type="video/mp4"/>
                     Your browser does not support the video tag.
