@@ -48,6 +48,7 @@ const FooterCooperationBlock = ({onClose}) => {
                     <p className="shearContainerTitle">
                         Предложение о сотрудничестве
                     </p>
+                    
                     <button onClick={() => onClose()}>
                         <Image className="shearContainerCloseImg" src={close} alt={'x'}></Image>
                     </button>
