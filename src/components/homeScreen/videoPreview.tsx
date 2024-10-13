@@ -26,6 +26,7 @@ const VideoPreview = async () => {
                 autoPlay
                 muted
                 loop
+                playsInline
             >
                 {/*<source src="https://res.cloudinary.com/maticht12345/video/upload/v1703431672/b60cd259-26b8-495c-9ac0-e1b1c03163b7_xet17i.mp4" type="video/mp4" />*/}
                 <source src={videoSrc} type="video/mp4"/>
